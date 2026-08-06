@@ -1,0 +1,82 @@
+baseURL = 'https://www.snakeeyessoftware.com/'
+languageCode = 'en-us'
+title = 'Snake Eyes Software'
+theme = 'PaperMod'
+
+[params]
+description = "Keep It Simple"
+author = "Snake Eyes Software"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+defaultTheme = "auto"
+DateFormat = "January 2, 2006"
+
+# Custom logo
+[params.label]
+text = "Snake Eyes Software"
+icon = "/images/logo-original.png"
+iconHeight = 40
+
+[params.homeInfoParams]
+Title = "Snake Eyes Software"
+Content = "Keep It Simple - Software solutions, mobile applications, and cybersecurity services"
+
+# Custom assets
+[params.assets]
+favicon = "/images/favicon.ico"
+favicon16x16 = "/images/favicon-16x16.png"
+favicon32x32 = "/images/favicon-32x32.png"
+apple_touch_icon = "/images/apple-touch-icon.png"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/snakeeyessoftware"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/company/snakeeyessoftware"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://facebook.com/snakeeyessoftware"
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 2
+
+[[menu.main]]
+name = "Products"
+url = "/products/"
+weight = 3
+
+[[menu.main]]
+name = "Tutorials"
+url = "/tutorials/"
+weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 5
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
