@@ -6,6 +6,12 @@ theme = 'PaperMod'
 [params]
 description = "Keep It Simple"
 author = "Snake Eyes Software"
+# Suppress PaperMod's one-line default footer. The custom multi-column footer
+# renders from layouts/partials/extend_footer.html instead. This guard wraps
+# only the theme's <footer> element, so the theme's footer scripts (theme
+# toggle, go-to-top, smooth anchor scroll, menu scroll persistence) still run.
+# Overriding footer.html outright is what silently killed the theme toggle.
+hideFooter = true
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true

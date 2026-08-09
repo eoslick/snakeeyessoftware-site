@@ -1,4 +1,9 @@
-{{- if not (.Param "hideFooter") }}
+{{- /* Snake Eyes custom footer. Rendered via PaperMod's extend_footer.html
+     extension point rather than overriding footer.html, so the theme's own
+     scripts (theme toggle, go-to-top, smooth anchor scroll, menu scroll
+     persistence) keep running. Overriding footer.html dropped all of them
+     and left the theme-toggle button dead. The theme's default footer text
+     is suppressed with params.hideFooter in hugo.toml. */ -}}
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-grid">
@@ -67,4 +72,3 @@
         </div>
     </div>
 </footer>
-{{- end }}
