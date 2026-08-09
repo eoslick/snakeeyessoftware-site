@@ -420,7 +420,12 @@ a:hover {
     color: var(--accent-sage);
 }
 
-/* Dark Mode Support */
+/* Dark Mode Support
+   PaperMod switched to a data-theme attribute on :root; the older builds
+   used a .dark class. Both are matched so these rules cannot silently die
+   again on a theme upgrade. Targeting .dark alone left every override
+   below inert, so headings rendered near-black navy on a dark background. */
+:root[data-theme="dark"],
 .dark {
     --primary-navy: #e5e7eb;
     --text-charcoal: #d1d5db;
@@ -429,13 +434,18 @@ a:hover {
     --border-subtle: #374151;
 }
 
+:root[data-theme="dark"] .post-entry,
 .dark .post-entry {
     background: var(--bg-card);
     border-color: var(--border-subtle);
 }
 
-.dark h1, .dark h2, .dark h3 {
-    color: white;
+:root[data-theme="dark"] h1,
+:root[data-theme="dark"] h2,
+:root[data-theme="dark"] h3,
+:root[data-theme="dark"] .post-title,
+.dark h1, .dark h2, .dark h3, .dark .post-title {
+    color: #f3f4f6;
 }
 
 /* Responsive Design */
@@ -761,14 +771,23 @@ h1::after, h2::after {
 }
 
 /* Dark mode pull quotes */
+:root[data-theme="dark"] .pull-quote,
 .dark .pull-quote {
     background: rgba(103, 142, 89, 0.12);
     border-left-color: var(--accent-sage);
 }
 
+:root[data-theme="dark"] .pull-quote blockquote,
 .dark .pull-quote blockquote {
     color: #e5e7eb;
     background: transparent;
+}
+
+/* Body blockquotes also inherit --text-light, which is too dim on dark */
+:root[data-theme="dark"] blockquote,
+.dark blockquote {
+    color: #d1d5db;
+    background: rgba(103, 142, 89, 0.10);
 }
 
 /* ---------------------------------------------------------------
