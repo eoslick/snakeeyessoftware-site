@@ -838,3 +838,31 @@ h1::after, h2::after {
         margin: 1.5rem auto;
     }
 }
+
+/* ---------------------------------------------------------------
+   Header logo
+   --------------------------------------------------------------- */
+
+/* Hide the wordmark that sits beside the logo. The logo artwork already
+   reads "SNAKE EYES SOFTWARE", so the adjacent text is redundant.
+   PaperMod prints it as a bare text node inside the anchor (no element to
+   target), so font-size:0 collapses it while the <img> keeps its own size.
+   The link retains its accessible name via the anchor's title attribute. */
+.logo a {
+    font-size: 0;
+}
+
+.logo a img,
+.logo a svg {
+    font-size: 1rem;           /* reset so the image is unaffected */
+    margin-inline-end: 0;      /* no gap needed with the text gone */
+}
+
+/* The logo artwork is near-black (mean luminance 42/255) and disappears
+   against the dark theme background. Inverting lightens it, and the
+   180deg hue rotation puts the hues back where they started so the
+   green snake eyes stay green instead of turning magenta. */
+:root[data-theme="dark"] .logo a img,
+.dark .logo a img {
+    filter: invert(1) hue-rotate(180deg);
+}
