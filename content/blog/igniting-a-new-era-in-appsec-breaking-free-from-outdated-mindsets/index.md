@@ -10,6 +10,8 @@ tags:
 - SoftwareEngineering
 - Security
 draft: false
+aliases:
+- /site/2024/07/igniting-a-new-era-in-appsec-breaking-free-from-outdated-mindsets/
 ---
 
 ![Cover Image](images/cover.png)

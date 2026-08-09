@@ -10,6 +10,8 @@ tags:
 - SoftwareSecurity
 - Security
 draft: false
+aliases:
+- /site/2023/12/the-honor-code-of-data-privacy-first-design/
 ---
 
 ## Trust Through Protection

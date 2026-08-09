@@ -8,6 +8,8 @@ tags:
 - introduction
 - SoftwareSecurity
 draft: false
+aliases:
+- /site/2023/04/what-is-software-security/
 ---
 
 Information security encompasses three core principles: confidentiality, integrity, and availability. Within software contexts, these concepts apply specifically to protecting software components and applications.

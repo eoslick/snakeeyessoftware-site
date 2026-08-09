@@ -9,6 +9,8 @@ tags:
 - SoftwareSecurity
 - Security
 draft: false
+aliases:
+- /site/2023/09/confidentiality/
 ---
 
 Confidentiality represents how systems manage user data and serves as a fundamental component of user trust. Organizations must clearly communicate data usage intentions and honor those commitments transparently.

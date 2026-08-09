@@ -9,6 +9,8 @@ tags:
 - SoftwareSecurity
 - Security
 draft: false
+aliases:
+- /site/2023/10/availability/
 ---
 
 Availability represents the final pillar of information security, ensuring that "the data is available when the system says it will" with timeframes ranging from immediate access to several days, depending on system requirements.

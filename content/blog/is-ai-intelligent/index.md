@@ -10,6 +10,8 @@ tags:
 - SocialImpact
 - Artificial Intelligence
 draft: false
+aliases:
+- /site/2025/09/ai-intelligence-debate/
 ---
 
 ![Bookstore](images/Bookstore.png)

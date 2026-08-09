@@ -9,6 +9,8 @@ tags:
 - SecurityPractices
 - SoftwareSecurity
 draft: false
+aliases:
+- /site/2024/03/security-as-an-enabler-the-case-for-a-hands-on-approach/
 ---
 
 Posted on March 21, 2024

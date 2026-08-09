@@ -11,6 +11,8 @@ tags:
 - Software Engineering
 - Quality Assurance
 draft: false
+aliases:
+- /site/2023/12/software-security-is-software-quality/
 ---
 
 ## The Craftsmanship Parallel

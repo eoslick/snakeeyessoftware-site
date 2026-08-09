@@ -8,6 +8,8 @@ tags:
 - SecurityTools
 - Security
 draft: false
+aliases:
+- /site/2024/08/the-security-tool-moat/
 ---
 
 ![header](images/header.webp)

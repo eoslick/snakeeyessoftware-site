@@ -9,6 +9,8 @@ tags:
 - SoftwareSecurity
 - Security
 draft: false
+aliases:
+- /site/2024/01/hiding-data-in-plain-sight/
 ---
 
 ## Overview

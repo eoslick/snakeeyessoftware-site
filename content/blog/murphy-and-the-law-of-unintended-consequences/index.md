@@ -11,6 +11,8 @@ tags:
 - Behavioral Psychology
 - Software Engineering
 draft: false
+aliases:
+- /site/2024/06/murphy-and-the-law-of-unintended-consequences/
 ---
 
 Posted on June 3, 2024

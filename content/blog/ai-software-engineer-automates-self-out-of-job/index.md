@@ -10,6 +10,8 @@ tags:
 - ArtificialIntelligence
 - Automation
 draft: false
+aliases:
+- /site/2024/04/ai-software-engineer-automates-self-out-of-job/
 ---
 
 ![Monty Python reference image](images/bringout-yer-dead.webp)

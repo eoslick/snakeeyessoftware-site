@@ -15,6 +15,8 @@ tags:
 - skill atrophy
 - sedentary lifestyle
 draft: false
+aliases:
+- /site/2024/06/rewiring-ourselves-breaking-free-from-the-shackles-of-convenience/
 ---
 
 Posted on June 22, 2024

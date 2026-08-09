@@ -10,6 +10,8 @@ tags:
 - Security
 - Tutorial
 draft: false
+aliases:
+- /site/2024/02/secure-by-design-exploring-technology-choices/
 ---
 
 ## Introduction

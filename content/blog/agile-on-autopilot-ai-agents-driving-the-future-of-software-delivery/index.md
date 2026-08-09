@@ -11,6 +11,8 @@ tags:
 - Artificial Intelligence
 - Software Engineering
 draft: false
+aliases:
+- /site/2024/05/agile-on-autopilot-ai-agents-driving-the-future-of-software-delivery/
 ---
 
 ![Introduction image](images/introduction.jpeg)

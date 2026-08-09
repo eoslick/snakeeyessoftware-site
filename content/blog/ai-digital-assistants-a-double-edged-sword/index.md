@@ -10,6 +10,8 @@ tags:
 - SocialImpact
 - Artificial Intelligence
 draft: false
+aliases:
+- /site/2024/06/ai-digital-assistants-a-double-edged-sword/
 ---
 
 ![Header Image](images/headerimage.webp)

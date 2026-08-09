@@ -10,6 +10,8 @@ tags:
 - SoftwareEngineering
 - SoftwareSecurity
 draft: false
+aliases:
+- /site/2025/01/the-impossible-security-goal-your-team-should-set-anyway/
 ---
 
 ![Header image](images/header.jpg)

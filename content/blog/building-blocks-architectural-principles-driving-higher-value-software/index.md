@@ -11,6 +11,8 @@ tags:
 - Security
 - Tutorial
 draft: false
+aliases:
+- /site/2024/02/building-blocks-architectural-principles-driving-higher-value-software/
 ---
 
 The MyOwnTutorial project will employ seven core architectural principles to enhance security and reduce total cost of ownership.

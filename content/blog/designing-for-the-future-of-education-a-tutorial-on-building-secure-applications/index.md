@@ -10,6 +10,8 @@ tags:
 - Security
 - Tutorial
 draft: false
+aliases:
+- /site/2024/02/designing-for-the-future-of-education-a-tutorial-on-building-secure-applications/
 ---
 
 ## Overview

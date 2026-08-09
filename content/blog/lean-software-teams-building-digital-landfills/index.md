@@ -9,6 +9,8 @@ tags:
 - appsec
 - SoftwareSecurity
 draft: false
+aliases:
+- /site/2025/07/lean-software-teams-building-digital-landfills/
 ---
 
 ![landfill](images/landfill.png)

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snake Eyes Software</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://www.snakeeyessoftware.com/">
+<!--
+  The old WordPress site issued a permanent 301 from / to /site, and browsers
+  cache 301s indefinitely. Returning visitors therefore land here instead of
+  the homepage.
+
+  The redirect target deliberately carries a query string. A plain redirect to
+  "/" would be followed by the browser's cached 301 straight back to /site/,
+  producing an infinite loop. HTTP caches key on the full URL including the
+  query, so "/?from=site" is a distinct entry with no cached redirect and
+  resolves to the real homepage.
+-->
+<meta http-equiv="refresh" content="0; url=/?from=site">
+<style>
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:#32373c; color:#e5e7eb; text-align:center;
+         font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { padding:2rem; max-width:32rem; }
+  h1 { font-size:1.35rem; font-weight:700; margin:0 0 .75rem; letter-spacing:-.02em; }
+  p  { margin:0 0 1.5rem; color:#b6bcc4; line-height:1.6; }
+  a.btn { display:inline-block; background:#678e59; color:#fff; text-decoration:none;
+          padding:.7rem 1.4rem; border-radius:6px; font-weight:600; letter-spacing:.03em; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Snake Eyes Software has a new home</h1>
+    <p>You should be redirected automatically. If nothing happens, use the link below.</p>
+    <a class="btn" href="/?from=site">Go to the site</a>
+  </div>
+</body>
+</html>

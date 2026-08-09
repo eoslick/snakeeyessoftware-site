@@ -10,6 +10,8 @@ tags:
 - SoftwareSecurity
 - UserInterface
 draft: false
+aliases:
+- /site/2024/03/bulletproof-your-ui-crafting-secure-and-user-friendly-interfaces/
 ---
 
 Posted on March 27, 2024

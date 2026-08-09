@@ -12,6 +12,8 @@ tags:
 - Technology Impact
 - LLMs
 draft: false
+aliases:
+- /site/2025/07/ai-doesnt-need-a-soul-to-take-your-job/
 ---
 
 ![](images/image-1.png)

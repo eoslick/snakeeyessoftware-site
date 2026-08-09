@@ -10,6 +10,8 @@ tags:
 - software security
 - behavioral psychology
 draft: false
+aliases:
+- /site/2023/03/software-security-made-simple/
 ---
 
 ## Overview

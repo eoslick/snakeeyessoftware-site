@@ -9,6 +9,8 @@ tags:
 - SoftwareEngineering
 - SoftwareSecurity
 draft: false
+aliases:
+- /site/2024/08/kpi-chaos-to-cash-flow-rethinking-security-metrics-for-real-success/
 ---
 
 ## Overview

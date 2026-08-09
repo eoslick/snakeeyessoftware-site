@@ -9,6 +9,8 @@ tags:
 - SoftwareSecurity
 - Security
 draft: false
+aliases:
+- /site/2023/09/integrity-what-you-see-is-what-you-get/
 ---
 
 Integrity represents the second core principle of software security, focused on ensuring data trustworthiness through accuracy and completeness.

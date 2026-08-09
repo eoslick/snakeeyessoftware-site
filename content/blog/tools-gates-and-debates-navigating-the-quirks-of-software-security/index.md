@@ -10,6 +10,8 @@ tags:
 - SecurityPractices
 - SoftwareSecurity
 draft: false
+aliases:
+- /site/2024/03/tools-gates-and-debates-navigating-the-quirks-of-software-security/
 ---
 
 Posted on March 13, 2024

@@ -10,6 +10,8 @@ tags:
 - SoftwareDesign
 - SoftwareSecurity
 draft: false
+aliases:
+- /site/2024/05/subscribed-to-risk-unpacking-the-security-implications-of-subscription-based-software/
 ---
 
 ![Subscription options abound](images/subscriptions.webp)

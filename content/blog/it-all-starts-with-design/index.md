@@ -11,6 +11,8 @@ tags:
 - Security
 - Software Engineering
 draft: false
+aliases:
+- /site/2023/12/it-all-starts-with-design/
 ---
 
 Software design combines artistic vision with scientific principles. Like woodworking, it involves envisioning a final product and executing it through methodical processes, with adjustments made throughout.

@@ -8,6 +8,8 @@ tags:
 - SoftwareSecurity
 - Security
 draft: false
+aliases:
+- /site/2023/10/security-posture-basics/
 ---
 
 ## Core Pillars

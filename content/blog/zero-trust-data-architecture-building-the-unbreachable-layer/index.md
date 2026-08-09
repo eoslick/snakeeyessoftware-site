@@ -13,6 +13,8 @@ tags:
 - compliance
 - software-engineering
 draft: false
+aliases:
+- /site/2025/01/zero-trust-data-architecture-building-the-unbreachable-layer/
 ---
 
 Posted on January 17, 2025

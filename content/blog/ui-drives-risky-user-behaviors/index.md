@@ -10,6 +10,8 @@ tags:
 - Security
 - Software Engineering
 draft: false
+aliases:
+- /site/2024/04/ui-drives-risky-user-behaviors/
 ---
 
 ![online-education](images/online-education.webp)

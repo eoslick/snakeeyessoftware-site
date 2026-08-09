@@ -10,6 +10,8 @@ tags:
 - Code Design
 - Architecture
 draft: false
+aliases:
+- /site/2024/01/choose-your-own-adventure-design-for-security-or-struggle-with-support/
 ---
 
 All software design decisions influence security outcomes. Multiple factors affect the overall security posture of an application.
