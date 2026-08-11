@@ -4,8 +4,6 @@ date: 2024-12-01
 draft: false
 ---
 
-# About Snake Eyes Software
-
 Keep It Simple.
 
 Snake Eyes Software specializes in delivering straightforward, effective software solutions across three key areas:

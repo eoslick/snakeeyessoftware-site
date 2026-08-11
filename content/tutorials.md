@@ -4,8 +4,6 @@ date: 2024-12-01
 draft: false
 ---
 
-# Tutorials
-
 Learn best practices and techniques for software development, mobile apps, and cybersecurity.
 
 ---

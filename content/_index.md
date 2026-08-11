@@ -2,8 +2,6 @@
 title: "Snake Eyes Software"
 ---
 
-# Welcome to Snake Eyes Software
-
 **Keep It Simple** - We deliver straightforward, effective solutions in software development, mobile applications, and cybersecurity.
 
 <div class="hero-cta">

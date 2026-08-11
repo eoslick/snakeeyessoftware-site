@@ -4,8 +4,6 @@ date: 2024-12-01
 draft: false
 ---
 
-# Our Products
-
 Explore our range of software solutions, mobile applications, and cybersecurity tools.
 
 ---
