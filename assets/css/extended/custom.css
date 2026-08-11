@@ -866,3 +866,49 @@ h1::after, h2::after {
 .dark .logo a img {
     filter: invert(1) hue-rotate(180deg);
 }
+
+/* ---------------------------------------------------------------
+   Footer colours
+
+   The footer took its background from --primary-navy, which is a TEXT
+   colour that deliberately inverts for dark mode (#1a1f2e -> #e5e7eb).
+   Using an inverting variable as a background flipped the footer to
+   near-white under white text once the dark-mode selector started
+   working: measured 1.24:1 against a 4.5:1 minimum.
+
+   The footer is now explicitly dark in both themes and independent of
+   any inverting variable. --accent-sage (#678e59) is also lightened
+   here to #8ab077, lifting the small tagline/email/link text from a
+   marginal 4.59:1 to 7.02:1.
+   --------------------------------------------------------------- */
+.footer {
+    --footer-accent: #8ab077;
+    background: #161b26;
+    color: #d1d5db;
+    border-top: 2px solid var(--footer-accent);
+}
+
+/* Slight separation from the page background in dark mode, where the
+   theme background (#1d1e20) is close to the footer's own colour. */
+:root[data-theme="dark"] .footer,
+.dark .footer {
+    background: #12161f;
+}
+
+.footer-column h4::after,
+.footer-social a:hover {
+    background: var(--footer-accent);
+}
+
+.footer-tagline,
+.footer-email,
+.footer-links a:hover,
+.footer-legal a:hover {
+    color: var(--footer-accent);
+}
+
+/* Separator between the legal links: 3.74:1 was below the 4.5:1 floor
+   on both footer backgrounds. #858d9b clears it (5.41 / 5.15). */
+.footer-legal .separator {
+    color: #858d9b;
+}
